@@ -40,13 +40,13 @@ Content from Spring 2021: https://stepik.org/course/92488
 8. Language Models
     1. Lecture
         * Count-based language models
-              * Estimating probabilities in N-gram language model
-              * Text-generation pipeline
-              * Evaluating the quality of language models: Cross-entropy, Perplexity, human evaluation
+            * Estimating probabilities in N-gram language model
+            * Text-generation pipeline
+            * Evaluating the quality of language models: Cross-entropy, Perplexity, human evaluation
         * Neural Language models
-              * Using learnt or pre-computed embeddings
-              * Using RNNs instead of Embeddings
-              * Using CNNs + embeddings instead of RNNs
+            * Using learnt or pre-computed embeddings
+            * Using RNNs instead of Embeddings
+            * Using CNNs + embeddings instead of RNNs
     2. Seminar
         * todo: add the description
 9. Coursework: Part-of-speech Tagger
