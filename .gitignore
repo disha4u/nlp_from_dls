@@ -25,3 +25,8 @@ weights/*
 */.R*
 .R*
 .Rproj.user
+
+# exclude icons
+"Icon[\r]"
+*/"Icon[\r]"
+Icon[]
