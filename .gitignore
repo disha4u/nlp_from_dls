@@ -14,12 +14,16 @@ data/*
 !data/README.md
 weights/*
 !weights/README.md
+checkpoints/*
+!checkpoints/README.md
 
 # exclude all lower-level heavy files except for the README.md files
 */data/*
 !*/data/README.md
 */weights/*
 !*/weights/README.md
+*/checkpoints/*
+!*/checkpoints/README.md
 
 # exclude all metadata from R-projects
 */.R*
@@ -27,6 +31,5 @@ weights/*
 .Rproj.user
 
 # exclude icons
-"Icon[\r]"
-*/"Icon[\r]"
 Icon[]
+*/Icon[]
