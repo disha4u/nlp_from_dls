@@ -4,6 +4,8 @@ This repository shows my first dive into NLP. Huge thanks
 to [Deep Learning School](https://en.dlschool.org/) organised with the help of
 [Phystech School of Applied Mathematics and Informatics](https://mipt.ru/english/edu/phystechschools/psami) (Факультет Прикладной Математики и Информатики МФТИ).
 
+## Syllabus
+
 Content from Spring 2021: https://stepik.org/course/92488
 
 1. Organisational information
