@@ -16,13 +16,15 @@ Content from Spring 2021: https://stepik.org/course/92488
         * Context embeddings using SVD
         * Text classification and regression
     2. Seminar
-        * tokenization, stop words
-        * stemming, lemmatization
-        * TF-IDF, cosine similarity
+        * tokenization, stop words, stemming, lemmatization, TF-IDF, cosine similarity
         * Text classification using all the above
         * NLP Libraries: nltk, [razdel](https://github.com/natasha/razdel), pymorphy2, spacy, rnnmorph 
 3. [Coursework: Simple Embeddings](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/03_HW_Simple_embeddings)
-    * todo: add the description
+    * Ranking questions by similarity using
+        * Self-implemented Tokenizer class and sentence-embedding aggregator function
+        * Self-implemented Hits@K and DCG@K metrics
+        * Word2Vec from gensim.models
+    * NLP Libraries: gensim
 4. [Embeddings](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/04_Embeddings)
     1. Lecture
         * Word2Vec: Skip-gram
