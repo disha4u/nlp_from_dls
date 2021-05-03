@@ -32,9 +32,19 @@ Content from Spring 2021: https://stepik.org/course/92488
         * GloVe
         * FastText
     2. Seminar
-        * todo: add the description
+        * Going deeper into Word2Vec implementation
+        * Exploring embedding spaces:
+            * Woman + King - Man = Queen
+            * or less known: Mexico + Vodka - Russia = Tekila
+        * Loonking into the biases introduced by the taining data
 5. [Coursework: Embeddings](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/05_HW_Embeddings)
-    * todo: add the description
+    * Trying to come up and implement better embeddings for words not seen in the training set
+        * Naive Context: average from the words to hte left and to the right
+        * Existing Context: take the closest words to the left and right with known embeddings
+        * Existing Context within a window of pre-specified length (no point in looking too far)
+        * Same as before, but weighted inversely-proportionally to the distance
+        * Previous concatenated with (TF-IDF + SVD) embedding
+    * Training binary classification models with the above embeddings
 6. [RNNs](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/06_RNNs)
     1. Lecture
         * RNNs - some maths behind
@@ -42,9 +52,12 @@ Content from Spring 2021: https://stepik.org/course/92488
         * LSTM and GRU overview
         * Examples of inputs and outputs
     2. Seminar
-        * todo: add the description
+        * Going through implementations of different models for text classifications (for all models use learnable embedding layers)
+            * CNN, RNN, GRU feature extraction models
+            * Adding pre-trained word2vec embeddings and fine-tuning the models.
 7. [Coursework: Text Classification](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/07_HW_Text_classification)
-    * todo: add the description
+    * Modifying models from seminar notebook to fit different dataset (multiclass classification)
+    * Train the models optimizing towards self-implemented F1 score 
 8. [Language Models](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/08_Language_models)
     1. Lecture
         * Count-based language models
