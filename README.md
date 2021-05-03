@@ -110,6 +110,7 @@ Content from Spring 2021: https://stepik.org/course/92488
     2. Seminar
         * Re-implementing GPT architecture from scratch
         * Looking at attention maps of pre-trained GPT from Hugging Face
+        * Discuss the BPE (Byte Pair Encoding) algorithm. See [paper](https://paperswithcode.com/method/bpe), [blog post](https://leimao.github.io/blog/Byte-Pair-Encoding/)
 14. Coursework: Fine-tuning GPT and BERT
     * Training GPT for text classification (accuracy=86%)
     * Fine-tuning pre-trained GPT for text classification (accuracy=92%)
