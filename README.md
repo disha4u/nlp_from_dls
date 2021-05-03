@@ -88,28 +88,32 @@ Content from Spring 2021: https://stepik.org/course/92488
             * Greedy decoding -> Beam Search
             * Forgetfullness of RNNs (even bidirectional with LSTM cells) -> Attention
     2. Seminar
-        * Attention between encoder and decoder
-        * Intro to self-attention and multi-head attention
+        * Implemented the model from the (2014) [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) paper commonly known as Seq2Seq
+        * Intro to attention between encoder and decoder without implementation (see [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473))
+        * Intro to self-attention and multi-head attention without implementation (see [Attention Is All You Need](https://arxiv.org/abs/1706.03762))
 11. [Coursework: Seq2Seq with Attention](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/11_HW_Seq2Seq_with_Attention)
-    * todo: add the description
+    * Implemented something inbetween [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) and [GNMT-2016](https://arxiv.org/abs/1609.08144)
+    * Achieved BLEU of 31 on Russian -> English translation
 12. [Transformers: Attention is all you need.](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/12_Transformers)
     1. Lecture
-        * Self-attention
-        * Multi-head attention
-        * Masked multi-head attention (general)
+        * Self-attention, Multi-head attention, Masked multi-head attention (general)
         * Positional encoding
         * Decoder Side: Masked multi-head attention from decoder to encoder
         * Learning rate: warm-up and cool-down stages
-
     2. Seminar
-        * todo: add the description
+        * Re-implement transformer architecture from [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+        * Train the model on the dataset from previous HW and achieve similar BLEU in 6x less time
 13. [Transformers+](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/13_Transformers%2B)
     1. Lecture
-        * todo: add the description
+        * Contextual embeddings of [ELMO](https://arxiv.org/abs/1802.05365) vs Word2Vec
+        * [BERT](https://arxiv.org/abs/1810.04805), [GPT](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
     2. Seminar
-        * todo: add the description
+        * Re-implementing GPT architecture from scratch
+        * Looking at attention maps of pre-trained GPT from Hugging Face
 14. Coursework: Fine-tuning GPT and BERT
-    * todo: add the description
+    * Training GPT for text classification (accuracy=86%)
+    * Fine-tuning pre-trained GPT for text classification (accuracy=92%)
+    * **todo:** add info about fine-tuning BERT 
 ----
 
 **Disclaimer.** The course, in my opinion, is very similar to the [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/) course from [Stanford](https://www.stanford.edu). Hence, the title and the description.
