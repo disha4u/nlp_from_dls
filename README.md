@@ -106,7 +106,7 @@ Content from Spring 2021: https://stepik.org/course/92488
 13. [Transformers+](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/13_Transformers%2B)
     1. Lecture
         * Contextual embeddings of [ELMO](https://arxiv.org/abs/1802.05365) vs Word2Vec
-        * [BERT](https://arxiv.org/abs/1810.04805), [GPT](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
+        * Cover what makes [BERT](https://arxiv.org/abs/1810.04805) and [GPT](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) different from the original transformer and what they can do
     2. Seminar
         * Re-implementing GPT architecture from scratch
         * Looking at attention maps of pre-trained GPT from Hugging Face
