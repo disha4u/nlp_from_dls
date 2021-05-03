@@ -69,9 +69,13 @@ Content from Spring 2021: https://stepik.org/course/92488
             * Using RNNs instead of Embeddings
             * Using CNNs + embeddings instead of RNNs
     2. Seminar
-        * todo: add the description
+        * Going through the code for the models discussed un the lecture
+        * Creating batches of similar size (`batch_size` * `seq_len`) from sentences of varying lengths
+        * Temperature softmax, beam search
 9. [Coursework: Part-of-speech Tagger](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/09_HW_Part_of_speech_tagger)
-    * todo: add the description
+    * Implementing and fitting HMM model for Part-of-speech (POS) tagging
+    * Exploring default POS taggers from nlp libraries and their quality 
+    * Implementing and fitting Bi-directional LSTM tagger
 10. [Neural Machine Translation](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/10_Neural_Machine_Translation)
     1. Lecture
         * History of Machine Translation
