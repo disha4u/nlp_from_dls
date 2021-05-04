@@ -32,6 +32,7 @@ checkpoints/*
 
 # google slides (github has problems indexing them)
 *.gslides
+*/*.gslides
 
 # exclude icons
 Icon[
