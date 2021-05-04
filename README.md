@@ -111,6 +111,7 @@ Content from Spring 2021: https://stepik.org/course/92488
         * Re-implementing GPT architecture from scratch
         * Looking at attention maps of pre-trained GPT from Hugging Face
         * Discuss the BPE (Byte Pair Encoding) algorithm. See [paper](https://paperswithcode.com/method/bpe), [blog post](https://leimao.github.io/blog/Byte-Pair-Encoding/)
+        * Try using pre-trained GPT-2 for text generation, pre-trained DistilBERT for classification like shown in Jay Alamar's blog posts ([GPT-2](http://jalammar.github.io/illustrated-gpt2/), [DistilBERT](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/))
 14. Coursework: Fine-tuning GPT and BERT
     * Training GPT for text classification (accuracy=86%)
     * Fine-tuning pre-trained GPT for text classification (accuracy=92%)
