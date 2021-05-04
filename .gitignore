@@ -30,6 +30,11 @@ checkpoints/*
 .R*
 .Rproj.user
 
+# google slides (github has problems indexing them)
+*.gslides
+
 # exclude icons
-Icon[]
-*/Icon[]
+Icon[
+]
+*/Icon[
+]
