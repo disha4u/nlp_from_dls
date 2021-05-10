@@ -113,9 +113,9 @@ Content from Spring 2021: https://stepik.org/course/92488
         * Discuss the BPE (Byte Pair Encoding) algorithm. See [paper](https://paperswithcode.com/method/bpe), [blog post](https://leimao.github.io/blog/Byte-Pair-Encoding/)
         * Try using pre-trained GPT-2 for text generation, pre-trained DistilBERT for classification like shown in Jay Alamar's blog posts ([GPT-2](http://jalammar.github.io/illustrated-gpt2/), [DistilBERT](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/))
 14. [Coursework: Fine-tuning GPT and BERT](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/14_HW_Fine-Tuning_GPT_and_BERT)
-    * Training GPT for text classification (accuracy=86%)
-    * Fine-tuning pre-trained GPT for text classification (accuracy=92%)
-    * Using DistilBERT for text classification on [SST](https://paperswithcode.com/dataset/sst): fine-tuned on SST (accuracy=86%), pre-trained on SST (accuracy=86%).
+    * Training GPT from scratch for multiclass text classification on ["Emotion" dataset](https://huggingface.co/datasets/emotion) (accuracy=86%)
+    * Fine-tuning pre-trained GPT for multiclass text classification on ["Emotion" dataset](https://huggingface.co/datasets/emotion) (accuracy=92%)
+    * Using DistilBERT for binary text classification on [SST-2](https://paperswithcode.com/sota/sentiment-analysis-on-sst-2-binary): fine-tuned on SST (accuracy=86%), pre-trained on SST (accuracy=86%).
 ----
 
 **Disclaimer.** The course, in my opinion, is very similar to the [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/) course from [Stanford](https://www.stanford.edu). Hence, the title and the description.
