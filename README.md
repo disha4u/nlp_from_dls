@@ -115,7 +115,7 @@ Content from Spring 2021: https://stepik.org/course/92488
 14. [Coursework: Fine-tuning GPT and BERT](https://github.com/GeorgeBatch/nlp_from_dls/tree/main/14_HW_Fine-Tuning_GPT_and_BERT)
     * Training GPT for text classification (accuracy=86%)
     * Fine-tuning pre-trained GPT for text classification (accuracy=92%)
-    * **todo:** add info about fine-tuning BERT 
+    * Using DistilBERT for text classification on [SST](https://paperswithcode.com/dataset/sst): fine-tuned on SST (accuracy=86%), pre-trained on SST (accuracy=86%).
 ----
 
 **Disclaimer.** The course, in my opinion, is very similar to the [CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/) course from [Stanford](https://www.stanford.edu). Hence, the title and the description.
